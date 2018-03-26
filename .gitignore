@@ -1,0 +1,7 @@
+*.js
+*.js.map
+*.css
+*.css.map
+node_modules/
+platforms/
+hooks/

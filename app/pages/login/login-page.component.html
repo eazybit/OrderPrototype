@@ -1,0 +1,9 @@
+<Page>
+    <StackLayout class="loginPageContainer">
+        <TextField keyboardType="email" hint="Email address" (textChange)="_userNameOnChange($event)" returnKeyType="done" (returnPress)="_loginOnTap()"
+                    autocorrect="false"></TextField>
+        <TextField secure="true" hint="Password" (textChange)="_passwordOnChange($event)" returnKeyType="done" (returnPress)="_loginOnTap()"
+                    autocorrect="false"></TextField>
+        <Button text="Login" (tap)="_loginOnTap()"></Button>
+    </StackLayout>
+</Page>
