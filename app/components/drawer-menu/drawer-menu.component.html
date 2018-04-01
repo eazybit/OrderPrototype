@@ -1,0 +1,8 @@
+<StackLayout>
+    <StackLayout>
+        <Label text="Menu"></Label>
+    </StackLayout>
+    <StackLayout>
+        <Label *ngFor="let item of items; let i = index" [text]="item" (tap)="itemOnTap.emit({item: item, index: i})"></Label>
+    </StackLayout>
+</StackLayout>

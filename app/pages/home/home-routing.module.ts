@@ -1,16 +1,16 @@
 /**
- * created by Yu Zhang on 3/23/18
+ * created by Yu Zhang on 3/28/18
  */
 import { NgModule } from '@angular/core';
 import { NativeScriptRouterModule } from 'nativescript-angular/router';
 
-import { LoginPageComponent } from './login-page.component';
+import { HomePageComponent } from './home-page.component';
 
 @NgModule({
     imports: [
         NativeScriptRouterModule.forChild([
-            { path: 'login', component: LoginPageComponent }
+            { path: 'home', component: HomePageComponent }
         ])
     ]
 })
-export class LoginRoutingModule {}
+export class HomeRoutingModule {}
